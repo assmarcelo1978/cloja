@@ -8,7 +8,7 @@
     <link href                    = "https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
         <!-- Styles -->
         <link href                = "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="/public/css/styles.css">
+        <link rel="stylesheet" href="/css/styles.css">
                 
   </head>
           
