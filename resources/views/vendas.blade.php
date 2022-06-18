@@ -4,7 +4,7 @@
 @section('title', 'Cloja')
 
 @section('content')
-<h1>DASHBOARD</h1>
+<h1>VENDAS</h1>
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum placeat a expedita esse vero atque eaque quos inventore, deleniti cumque vitae suscipit quod error. Qui accusantium cumque pariatur accusamus a!
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum placeat a expedita esse vero atque eaque quos inventore, deleniti cumque vitae suscipit quod error. Qui accusantium cumque pariatur accusamus a!
