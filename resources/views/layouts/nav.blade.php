@@ -2,7 +2,7 @@
 <body class="antialiased">
   <nav class="navbar bg-light stick fixed-top shadow ">
       <div class="container-fluid ">
-        <img width="80px" src="../public/img/logo.png" alt="Logo" class=""> 
+        <img width="80px" src="/img/logo.png" alt="Logo" class=""> 
         <a class="navbar-brand img-fluid rounded-top" alt="">CLoja - Controle de Loja</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -10,7 +10,7 @@
         </button>
         <div class="offcanvas offcanvas-start p-4 justify-content-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img width="120px" src="http://164.92.78.22/public/img/logo.png" alt="Logo" class=""></h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img width="120px" src="/img/logo.png" alt="Logo" class=""></h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
