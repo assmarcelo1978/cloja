@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,5 +20,32 @@ Route::get('/', function () {
 
 
 Route::get('/vendas', function () {
-    return view('vendas');
+    $vendedores = [
+        "Vendedor Padrão",
+        "marcelo",
+        "joão"
+    ];
+
+    $formasdepagamento = [
+        "Dinheiro",
+        "Pix",
+        "Cartão de Débito",
+        "Cartão de Crédito"
+    ];
+
+    $arr = [1, 2, 3, 5, 5];
+
+    return view(
+        'vendas',
+        [
+            'arr' => $arr,
+            'vendedores' => $vendedores,
+            'formasdepagamento' => $formasdepagamento
+        ]
+    );
+});
+
+
+Route::get('/produtos/{id?}', function ($id = null) {
+    return view('produtos', ['id' => $id]);
 });
