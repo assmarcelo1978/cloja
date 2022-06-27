@@ -44,7 +44,7 @@
     <!-- Dados resgatados do banco-->
     <div class="col-md-6">
     
-
+<p> {{ $busca }} </p>
 
 
 
@@ -75,7 +75,7 @@
     </div>
         <div class=" row form-check form-switch justify-content-end m-0">
             <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-            <label class="form-check-label" for="flexSwitchCheckChecked">Contabilizar</label>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Emitir NF externamente</label>
         </div>
     </div>
     <hr>

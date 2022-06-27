@@ -14,36 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+use App\Http\Controllers\VendaController;
+
 Route::get('/', function () {
     return view('welcome');
 });
 
 
-Route::get('/vendas', function () {
-    $vendedores = [
-        "Vendedor Padrão",
-        "marcelo",
-        "joão"
-    ];
-
-    $formasdepagamento = [
-        "Dinheiro",
-        "Pix",
-        "Cartão de Débito",
-        "Cartão de Crédito"
-    ];
-
-    $arr = [1, 2, 3, 5, 5];
-
-    return view(
-        'vendas',
-        [
-            'arr' => $arr,
-            'vendedores' => $vendedores,
-            'formasdepagamento' => $formasdepagamento
-        ]
-    );
-});
+Route::get('/vendas', [VendaController::class, 'create']);
 
 
 Route::get('/produtos/{id?}', function ($id = null) {

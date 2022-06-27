@@ -1,6 +1,6 @@
 
 <body class="antialiased">
-  <nav class="navbar bg-light stick fixed-top shadow ">
+  <nav class="navbar bg-light stick fixed-top shadow" id="navbar">
       <div class="container-fluid ">
         <img width="120px" src="/img/logo.png" alt="Logo" class=""> 
         <a class="navbar-brand img-fluid rounded-top" alt="">CLoja - Controle de Loja</a>
