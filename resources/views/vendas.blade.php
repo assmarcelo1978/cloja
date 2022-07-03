@@ -24,7 +24,13 @@
     <div class="row justify-content-center p-3 flex-nowrap border m-0">
         <div class="col-7">
             <label for="">Selecione o produto</label>
-            <input class="form-control " type="text" name="" id="">
+         
+         
+            <video id="preview" 
+                style="width:100%;height:100%" 
+                title="Posicione o QR code em frente a câmera para fazer a leitura">
+            </video>
+            <!--input class="form-control " type="text" name="" id="" -->
         </div>
         <div class="col-2 align-items-center p-0 m-3">
             <a type="submit" class="m-0"><ion-icon size="large" name="search"></ion-icon></a>
@@ -72,12 +78,12 @@
             @endforeach
             
         </select>
+
     </div>
         <div class=" row form-check form-switch justify-content-end m-0">
-            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-            <label class="form-check-label" for="flexSwitchCheckChecked">Emitir NF externamente</label>
         </div>
     </div>
+    
     <hr>
         <div class="p-0 row justify-content-end m-0 ">
             <label class=" text" style="text-align-last: right"  for="total">Desconto</label>
